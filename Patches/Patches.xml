@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "AIPersonaCore"]/tradeability</xpath>
+    <value>
+      <tradeability>Buyable</tradeability>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName = "TechprofSubpersonaCore"]/tradeability</xpath>
+    <value>
+      <tradeability>Buyable</tradeability>
+    </value>
+  </Operation>
+</Patch>
